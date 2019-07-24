@@ -12,6 +12,10 @@
 > 2. 在input里，name 有什么作用？
 
 *   name 属性规定 input 元素的名称.
+*	name会作为表单的一部分提交给后台
+```
+<input name="user" type="text" value="aaa" >//会提交{user：aaa}
+```
 
 > 3. radio 如何分组？
 
